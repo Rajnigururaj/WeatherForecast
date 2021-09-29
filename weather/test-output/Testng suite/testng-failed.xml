@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testng suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG learning(failed)">
+    <parameter name="url" value="https://login.yahoo.com"/>
+    <parameter name="username" value="test@yahoo.com"/>
+    <classes>
+      <class name="com.testng.GoogleTest">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="googleTitle"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTest -->
+    </classes>
+  </test> <!-- TestNG learning(failed) -->
+</suite> <!-- Failed suite [Testng suite] -->

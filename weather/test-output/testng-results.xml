@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T17:47:47 PDT" name="Default suite" finished-at="2021-09-28T17:47:59 PDT" duration-ms="11509">
+    <groups>
+      <group name="aaa">
+        <method signature="GoogleTest.googleTitle()[pri:2, instance:com.testng.GoogleTest@66498326]" name="googleTitle" class="com.testng.GoogleTest"/>
+        <method signature="GoogleTest.googleSearch()[pri:3, instance:com.testng.GoogleTest@66498326]" name="googleSearch" class="com.testng.GoogleTest"/>
+      </group> <!-- aaa -->
+      <group name="bbb">
+        <method signature="GoogleTest.googleLabel()[pri:1, instance:com.testng.GoogleTest@66498326]" name="googleLabel" class="com.testng.GoogleTest"/>
+      </group> <!-- bbb -->
+    </groups>
+    <test started-at="2021-09-28T17:47:47 PDT" name="Default test" finished-at="2021-09-28T17:47:59 PDT" duration-ms="11509">
+      <class name="com.testng.GoogleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:47 PDT" name="setup" finished-at="2021-09-28T17:47:51 PDT" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleLabel()[pri:1, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:51 PDT" name="googleLabel" finished-at="2021-09-28T17:47:51 PDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:51 PDT" name="tearDown" finished-at="2021-09-28T17:47:51 PDT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:51 PDT" name="setup" finished-at="2021-09-28T17:47:53 PDT" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleLabel()[pri:1, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:53 PDT" name="googleLabel" finished-at="2021-09-28T17:47:53 PDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:53 PDT" name="tearDown" finished-at="2021-09-28T17:47:54 PDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:54 PDT" name="setup" finished-at="2021-09-28T17:47:56 PDT" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleLabel()[pri:1, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:56 PDT" name="googleLabel" finished-at="2021-09-28T17:47:56 PDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:56 PDT" name="tearDown" finished-at="2021-09-28T17:47:56 PDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:56 PDT" name="setup" finished-at="2021-09-28T17:47:58 PDT" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleTitle()[pri:2, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:58 PDT" name="googleTitle" finished-at="2021-09-28T17:47:58 PDT" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google1] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.testng.GoogleTest.googleTitle(GoogleTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:58 PDT" name="tearDown" finished-at="2021-09-28T17:47:59 PDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="googleSearch()[pri:3, instance:com.testng.GoogleTest@66498326]" started-at="2021-09-28T17:47:59 PDT" name="googleSearch" finished-at="2021-09-28T17:47:59 PDT" depends-on-methods="com.testng.GoogleTest.googleTitle" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GoogleTest.googleSearch()[pri:3, instance:com.testng.GoogleTest@66498326] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GoogleTest.googleSearch()[pri:3, instance:com.testng.GoogleTest@66498326] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+      </class> <!-- com.testng.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

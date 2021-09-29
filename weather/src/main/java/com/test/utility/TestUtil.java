@@ -12,7 +12,7 @@ public class TestUtil {
 		ArrayList<Object[]> myData = new ArrayList<Object[]>();
 		
 		try {
-			reader = new Xls_Reader("/Users/rajnigururajaacharya/Documents/GitHub/WeatherForecast/weather/src/main/java/com/excel/xls/Lead_Input.xlsx");
+			reader = new Xls_Reader("/Users/rajnigururajaacharya/Documents/GitHub/WeatherForecast/weather/src/main/java/com/inputfiles/Lead_Input.xlsx");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

@@ -32,5 +32,7 @@ public class yahooLoginTest {
 		driver.findElement(By.xpath("//*[@id='login-username']")).sendKeys(username);
 		
 		driver.findElement(By.xpath("//*[@id='login-signin']")).click();
+		
+		driver.quit();
 	}
 }

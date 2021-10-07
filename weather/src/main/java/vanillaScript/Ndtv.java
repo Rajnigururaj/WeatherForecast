@@ -29,6 +29,10 @@ public class Ndtv {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
 		driver.manage().deleteAllCookies();
+		
+		String title = driver.getTitle();
+		
+		System.out.println(title);
 
 		driver.findElement(By.xpath("//a[@class='topnavmore']")).click();
 
